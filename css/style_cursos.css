@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Nixie One', cursive;
+  }
+  
+  /*--------------------- Navigation Section -----------------------*/
+
+.navbar{
+  background-image: linear-gradient(to right, #449ec8, #0b6b97);
+  padding: 0 30px !important;
+}
+
+.navbar .navbar-brand img{
+  height: 80px;
+  margin-left: 15px;
+}
+
+.navbar-nav li{
+  padding: 0 5px;
+}
+
+.navbar-nav li a{
+  color: white !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12pt;
+  text-align: center;
+}
+
+.navbar-nav li a:hover{
+  background: rgba(0,0,0,.3);
+  transition: .5s all;
+  padding: 10px;
+}
+
+.navbar .navbar-collapse .collapse-form{
+  display: none !important;
+}
+
+.navbar .navbar-collapse .collapse-form{
+  background-image: linear-gradient(to right, #449ec8, #0b6b97);
+  color:#fff;
+  padding-top: 3%;
+}
+
+.navbar .navbar-collapse .collapse-form .input-pesquisa{
+  background-color: rgba(0,0, 0,.3); 
+  color: #fff; 
+  font-weight: bold; 
+  border: 0; 
+  border-radius: 0;
+}
+
+.navbar .navbar-collapse .collapse-form .input-pesquisa::placeholder{
+  color: #ccc; 
+  text-transform: uppercase;
+  font-size: 13pt;
+}
+
+.navbar .navbar-collapse .collapse-form .input-pesquisa:focus{
+  box-shadow: none;
+}
+
+.navbar .navbar-collapse .icon-search{
+ color: #fff;
+}
+
+.navbar .navbar-toggler{
+  outline: none !important;
+  border: none;
+}
+
+
+
+/*--------------------- Collapse Buscar Section --------------------*/
+
+#collapseExample{
+  background-image: linear-gradient(to right, #449ec8, #0b6b97);
+  color:#fff;
+  padding-top: 3%;
+}
+
+#collapseExample .input-group{
+  margin-bottom: 60px;
+}
+
+#collapseExample .input-pesquisa{
+  background-color: rgba(0,0, 0,.3); 
+  color: #fff; 
+  font-weight: bold; 
+  border: 0; 
+  border-radius: 0;
+}
+
+#collapseExample .input-pesquisa::placeholder{
+  color: #ccc; 
+  text-transform: uppercase;
+  font-size: 13pt;
+}
+
+#collapseExample .input-pesquisa:focus{
+  box-shadow: none;
+}
+
+  /*--------------------- Course Section --------------------*/
+
+#courses .title{
+    margin: 5% auto;
+    width: 81%;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  #courses .title::before{
+    content: ' ';
+    background: #0b6b97;
+    height: 5px;
+    width: 200px;
+    display: block;
+    transform: translateY(63px);
+  }
+  
+  #courses .courses{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 50px auto;
+  }
+  
+  #courses .courses > div{
+    flex: 1 1 300px;
+    margin: 10px;
+    font-weight: 600;
+  }
+  
+  #courses .courses img{
+    max-width: 100%;
+    display: block;
+  }
+  
+  #courses .courses .content-legend{
+    margin: 10px;
+  }
+  
+  #courses .courses h6{
+    padding-top: 5px ;
+    font-weight: 600;
+    font-size: 18pt;
+    margin: 0;
+  }
+  
+  #courses .courses span{
+    font-size: 10pt;
+  }
+  
+  #courses .courses p{
+    font-size: 13pt;
+    margin-top: 25px;
+  }
+
+  /*-------------------------  Email Marketing Section -----------------------*/
+
+#email-marketing{
+  padding: 5% 10%;
+  background-color: #f7f7f7;
+}
+
+#email-marketing .email-marketing h5{
+  font-weight: bold;
+  color: rgba(0,0, 0,.7);
+}
+
+#email-marketing .email-marketing h6{
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: rgba(0,0, 0,.5);
+}
+
+#email-marketing .email-marketing .btn{
+  background-image: linear-gradient(to right,  #0b6b97 0%, #449ec8 51%, #0b6b97 100%);
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15pt;
+  font-weight: 600;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 5px;
+}
+
+#email-marketing .email-marketing .btn:hover{
+  background-position: right center; 
+}
+
+#email-marketing .email-marketing .btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+
+
+/*-------------------------  Footer Section -----------------------*/
+
+#footer .footer{
+    padding: 15px 30px;
+    background-color: #0b6b97;
+    color: #fff;
+  }
+  
+  #footer .footer a{
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 13pt;
+  }
+  
+  #footer .footer a:hover{
+    color: rgba(0,0,0,.8);
+  }
+
+  #footer span{
+    float: right;
+  }
+  
+  #footer .footer svg{
+    font-size: 18pt;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  #footer .empresa{
+    background: #093c54;
+    font-size: 10pt;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  #icon-whatsapp{
+    position: fixed;
+    top: calc(100% - 50px);
+    right: 0px;
+    text-align: center;
+    width: 100px;
+    z-index: 0;
+  }
+  
+  #icon-whatsapp .icon-whatsapp{
+    background-color: #25cc63;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 11pt;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Nixie One', cursive;
+  }
+  
+  .navbar{
+    background-image: linear-gradient(to right, #449ec8, #0b6b97);
+    padding: 0 30px !important;
+  }
+  
+  .navbar .navbar-brand img{
+    height: 80px;
+  }
+  
+  .navbar-nav li{
+    padding: 0 5px;
+  }
+  
+  .navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12pt;
+    float: right;
+    text-align: left;
+  }
+  
+  .navbar-nav li a:hover{
+    background: rgba(0,0,0,.3);
+    transition: .5s all;
+  }
+  
+  .navbar .collapse .bi-search{
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .navbar .navbar-toggler{
+    outline: none !important;
+    border: none;
+  }
+  
+  .navbar .navbar-toggler .bi-grid-3x3-gap-fill{
+    outline: none !important;
+    color: white;
+    border: 0ch;
+  }
+  
+  #collapseExample{
+    background-image: linear-gradient(to right, #449ec8, #0b6b97);
+    color:#fff;
+    padding-top: 3%;
+  }
+  
+  
+  /*--------------------- Banner Section --------------------*/
+  #banner{
+    background-image: linear-gradient(to right, #449ec8, #0b6b97);
+    color:#fff;
+    padding-top: 3%;
+  }
+  
+  #banner .banner{
+    margin-bottom: 35px;
+  }
+  
+  #banner .promo-title{
+    font-weight: 600;
+    margin-top: 60px;
+    text-transform: uppercase;
+  }
+  
+  #banner .text-attencion{
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 11pt;
+  }
+  
+  /*------------- Banner Comprar Hora Section ---------------*/
+  
+  #banner .aula-particular-compra{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.5);
+    position: relative;
+    z-index: 2;
+    top: 3rem;
+  }
+  
+  #banner .btn-whatsapp{
+    padding: 10px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13pt;
+    border: 1px solid #25cc63;
+    letter-spacing: .07em;
+    background-size: 200% auto;
+    background-color: #25cc63;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  #banner .btn-whatsapp:hover{
+    color: #25cc63;
+    background-color: #fff;
+    transition: 0.5s;
+  }
+  
+  #banner .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  /*------------- Banner Wave Section ---------------*/
+  
+  #banner .wave{
+    width: 100%;
+    height: 100px;
+    background-image: url(../image/wave.png);
+    background-size: 1000px 100px;
+  }
+  
+  #banner .wave .wave1{
+    animation: animate 1s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0px;
+  }
+  
+  #banner .wave .wave2{
+    animation: animate2 2s linear infinite;
+    z-index: 999;
+    opacity: .5;
+    animation-delay: -5s;
+    bottom: 10px;
+  }
+  
+  #banner .wave .wave3{
+    animation: animate2 2s linear infinite;
+    z-index: 998;
+    opacity: .2;
+    animation-delay: -2s;
+    bottom: 15px;
+  }
+  #banner .wave .wave4{
+    animation: animate2 4s linear infinite;
+    z-index: 997;
+    opacity: .7;
+    animation-delay: -5s;
+    bottom: 20px;
+  }
+  @keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+  }
+  @keyframes animate2{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: -1000px;
+    }
+  }
+  
+  /*-------------------------  Footer Section -----------------------*/
+  
+  #footer .footer{
+    padding: 15px 30px;
+    background-color: #0b6b97;
+    color: #fff;
+  }
+  
+  #footer .footer a{
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 13pt;
+  }
+  
+  #footer .footer a:hover{
+    color: rgba(0,0,0,.8);
+  }
+  
+  #footer .footer svg{
+    font-size: 18pt;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  #footer .empresa{
+    background: #093c54;
+    font-size: 10pt;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  #icon-whatsapp{
+    position: fixed;
+    top: calc(100% - 50px);
+    right: 0px;
+    text-align: center;
+    width: 100px;
+    z-index: 3;
+  }
+  
+  #icon-whatsapp .icon-whatsapp{
+    background-color: #25cc63;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 11pt;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+    

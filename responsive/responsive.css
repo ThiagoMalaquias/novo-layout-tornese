@@ -1,0 +1,252 @@
+@media(max-width: 990px){
+  .container {
+    max-width: 900px;
+  }
+
+  /*--------------------- Navigation Section -----------------------*/
+  .navbar .navbar-collapse .collapse-form{
+    display: flex !important;
+  }
+  
+  .navbar .navbar-collapse .icon-search{
+    display: none;
+  }
+
+  /*--------------------- Banner Section --------------------*/
+  #banner .promo-title{
+    font-size: 25px;
+  }
+  #banner p{
+    font-size: 16px;
+  }
+  #banner .play-bnt{
+    width: 25px;
+    margin: 20px;
+  }
+  #banner a{
+    font-size: 16px;
+  }
+
+  /*--------------------- Services Section --------------------*/
+  #services .title{
+    font-size: 25px;
+  }
+
+  #services .services h5{
+    font-size: 20px;
+  }
+
+  #services .services .h5-align{
+    margin-bottom: 10px;
+  }
+
+  #services .services p{
+    font-size: 9pt;
+  }
+
+  /*--------------------- Banner Community Section --------------------*/
+  #banner-community .promo-title {
+    font-size: 25px;
+  }
+
+  #banner-community p{
+    font-size: 16px;
+  }
+
+  /*-------------------------  Comentarios Section -----------------------*/
+  #comentario .title {
+    font-size: 25px;
+  }
+
+  #comentario .div-image-user {
+    left: 30px;
+  }
+
+  #comentario .img-user {
+    width: 47%;
+    height: 119px;
+  }
+  #comentario .p-comentario {
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 769px){
+  #banner .img-banner{
+    height: 200px;
+  }
+
+  #services .service-img {
+    height: 90px;
+    margin-top: 38px;
+  }
+
+  #services .services .content-text{
+    padding: 10px 20px;
+  }
+
+  #banner-community p {
+    font-size: 15px;
+  }
+
+  #banner-community .banner-community .btn {
+    font-size: 12pt;
+  }
+
+  #banner-community .div-img-community{
+    margin-top: 10%;
+  }
+
+  #banner-community  .img-banner-community{
+    height: 200px;
+    margin-top: 15px;
+  }
+
+  #comentario .desktop{
+    display: none;
+  }
+
+  #comentario .mobile{
+    display: block;
+  }
+
+  /*--------  Comentarios Mobile Section --------------*/
+  #comentario .mobile{
+    display: block;
+    padding: 70px 0 0 21px;
+  }
+
+  #comentario .mobile .title{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14pt;
+    margin-bottom: 40px;
+  }
+
+  #comentario .mobile .title::before{
+    transform: translateY(60px);
+  }
+
+  #comentario .div-comentario{
+    border-left: 4px solid #0b6b97; 
+    padding-left: 6px;
+    margin-top: 30px;
+  }
+
+  #comentario .div-comentario-right{
+    border-right: 4px solid #0b6b97; 
+    padding-right: 6px;
+    margin-top: 30px;
+    text-align: end;
+  }
+
+  #comentario .comentario-mobile {
+    color: #291b1b;
+    font-size: 17px;
+    margin-bottom: 0px;
+    font-weight: 100;
+  }
+
+  #comentario .name-user{
+    color: #524c4c;
+  }
+
+  /*--------  Products Mobile Section --------------*/
+  #products .img-products{
+    height: 150px;
+  }
+  
+  #products .products h6 {
+    font-size: 15px;
+  }
+
+  #products .products .value-products {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+
+  #products .products .parcela-products {
+    font-size: 11px;
+  }
+
+  #products .products .btn{
+    font-size: 13px;
+  }
+
+}
+
+@media(max-width: 538px){
+  .navbar .navbar-brand img {
+    height: 69px;
+  }
+
+  .navbar .navbar-collapse .collapse-form .input-pesquisa::placeholder{
+    color: #ccc; 
+    text-transform: uppercase;
+    font-size: 10pt;
+  }
+  
+  .navbar .navbar-collapse .collapse-form .input-pesquisa:focus{
+    box-shadow: none;
+  }
+
+  #banner .modal-content .iframe{
+    width: 100%; 
+    height: 179px;
+  }
+
+  #services {
+    padding-top: 0px; 
+  }
+
+  #services .title {
+    font-size: 20px;
+  }
+
+  #services .services .content-text {
+    padding: 0px;
+  }
+
+  #services .service-img {
+    height: 150px;
+  }
+
+  #comentario .mobile .title::before {
+    transform: translateY(103px);
+  }
+
+  #comentario .comentario-mobile {
+    font-size: 10pt;
+  }
+
+  #comentario .name-user {
+    font-size: 10pt;
+  }
+
+  #products{
+    text-align: center;
+  }
+  #products .products .btn {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+
+  #email-marketing .email-marketing h5 {
+    font-size: 13pt;
+  }
+
+  #email-marketing .email-marketing h6 {
+    font-size: 11pt;
+  }
+
+  #email-marketing .email-marketing .btn {
+    font-size: 12pt;
+  }
+
+  #footer span{
+    float: none;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+  }
+}

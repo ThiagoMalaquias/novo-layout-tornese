@@ -1,0 +1,50 @@
+@media(max-width: 990px){
+	.container {
+		max-width: 900px;
+	}
+
+	/*--------------------- Navigation Section -----------------------*/
+	.navbar .navbar-collapse .collapse-form{
+		display: flex !important;
+	}
+	
+	.navbar .navbar-collapse .icon-search{
+		display: none;
+	}	
+}
+
+
+@media(max-width: 538px){
+  .navbar .navbar-brand img {
+    height: 69px;
+  }
+
+  .navbar .navbar-collapse .collapse-form .input-pesquisa::placeholder{
+    color: #ccc; 
+    text-transform: uppercase;
+    font-size: 10pt;
+  }
+  
+  .navbar .navbar-collapse .collapse-form .input-pesquisa:focus{
+    box-shadow: none;
+  }
+
+  #email-marketing .email-marketing h5 {
+    font-size: 13pt;
+  }
+
+  #email-marketing .email-marketing h6 {
+    font-size: 11pt;
+  }
+
+  #email-marketing .email-marketing .btn {
+    font-size: 12pt;
+  }
+
+  #footer span{
+    float: none;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+  }
+}

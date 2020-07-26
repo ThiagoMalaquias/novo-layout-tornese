@@ -1,0 +1,375 @@
+@media(max-width: 990px){
+  .container {
+    max-width: 900px;
+  }
+
+  /*--------------------- Navigation Section -----------------------*/
+  .navbar .navbar-collapse .collapse-form{
+    display: flex !important;
+  }
+  
+  .navbar .navbar-collapse .icon-search{
+    display: none;
+  }
+
+  /*--------------------- Classe Main Video Aulas --------------------*/
+  #classe .main-aula .promo-title{
+    font-size: 25px;
+  }
+  
+  #classe .main-aula .iframe-aula {
+    height: 350px;
+  }
+
+  #classe .main-aula .legend-class {
+    font-size: 17px;
+  }
+
+  #classe .main-aula .teacher {
+    font-size: 15px;
+    margin: 0px;
+  }
+
+  #classe .main-aula .about-teacher {
+    font-size: 12px;
+  }
+
+  /*--------------------- Services Section --------------------*/
+  #classe .main-aula .services h6 {
+    margin-top: 150%;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  #classe .main-aula .services h6 {
+    margin-top: 150%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  #classe .main-aula .services .service-img {
+    height: 100px;
+  }
+
+  #classe .main-aula .services h5 {
+    font-size: 19px;
+  }
+
+  #classe .main-aula .services p {
+    font-size: 9pt;
+  }
+
+  /*--------------------- Banner Community Section --------------------*/
+  #classe .main-aula #banner-community .title {
+    font-size: 20px;
+  }
+
+  #classe .main-aula #banner-community .content-community {
+    font-size: 12px;
+  }
+
+  #classe .main-aula #banner-community .banner-community .btn {
+    font-size: 9pt;
+  }
+
+  /*-------------------------  Products Section -----------------------*/
+  #products .products h6 {
+    font-size: 15px;
+  }
+
+  #products .products .value-products {
+    font-size: 15px;
+  }
+
+  #products .products .parcela-products {
+    font-size: 12px;
+  }
+
+}
+
+@media(max-width:769px){
+  /*---------------------- Navigation Section ------------------*/
+  .navbar{
+    position: unset
+  }
+
+  /*----------------------- Classe Video Aulas -------------------------------*/
+  .classe-desktop{
+    display: none;
+  }
+
+  #classe-mobile{
+    display: block;
+  }
+
+  /*----------------------- Classe Main Video Aulas ---------------------------*/
+  #classe-mobile .promo-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-transform: uppercase;
+  }
+
+  #classe-mobile .iframe-aula{
+    margin-top: 30px;
+    width: 90%;
+    height: 360px;
+  }
+  
+  #classe-mobile .content-class{
+    margin: 10px 50px;
+  }
+  
+  #classe-mobile  .content-class .legend-class{
+    font-size: 17px;
+    font-weight: 600;
+  }
+  
+  #classe-mobile .content-class .teacher{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  #classe-mobile .content-class .about-teacher{
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+   /*----------------------- Classe Main Video Aulas ---------------------------*/
+  
+  #classe-mobile .card{
+    border-radius: 0; 
+  }
+  
+  #classe-mobile .card .card-header{
+    font-weight: bold; 
+    font-size: 13pt;
+    border-bottom: 2px solid #ccc !important;
+  }
+  
+  #classe-mobile .card .list-group{
+    height: 76vh;  
+    overflow: auto;
+  }
+  
+  #classe-mobile .card .list-group::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+  }
+  
+  #classe-mobile .card .list-group::-webkit-scrollbar
+  {
+    width: 8px;
+    background-color: #F5F5F5;
+  }
+  
+  #classe-mobile .card .list-group::-webkit-scrollbar-thumb
+  {
+    background-color: #ccc;
+  }
+  
+  #classe-mobile .card .list-group-item{
+    font-weight: bold; 
+    font-size: 10pt;
+  }
+  
+  #classe-mobile .card .list-group-item:hover{
+    background-color: rgba(0,0,0,.03);
+    border: 0;
+  }
+  
+  #classe-mobile .card .list-group-item a{
+    text-decoration: none;
+    color:#000;
+  }
+
+  /*--------------------- Services Section --------------------*/
+
+ #classe-mobile .case-duvida{
+    margin-bottom: 50px;
+  }
+
+  #classe-mobile .case-duvida .title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 60px;
+    text-transform: uppercase;
+  }
+
+
+ #classe-mobile .services .service-img{
+    height: 130px;
+    margin-top: 20px;
+  }
+
+ #classe-mobile .services h5{
+    padding: 5px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+ #classe-mobile .services p{
+    font-weight: 600;
+    font-size: 9pt;
+  }
+
+ #classe-mobile .services .btn{
+    background-image: linear-gradient(to right,  #0b6b97 0%, #449ec8 51%, #0b6b97 100%);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: 600;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 5px;
+  }
+
+ #classe-mobile .services .btn:hover{
+    background-position: right center; 
+  }
+
+ #classe-mobile .services .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  /*--------------------- Banner Community Section --------------------*/
+
+  #classe-mobile #banner-community {
+    background: #093c54;
+    color:#fff;
+    padding: 2%  0%;
+  }
+
+  #classe-mobile #banner-community .text-community {
+    padding: 25px;
+  }
+
+  #classe-mobile #banner-community .title{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  #classe-mobile #banner-community .content-community{
+    font-size: 12px;
+}
+
+  #classe-mobile #banner-community .banner-community{
+    margin-bottom: 15px;
+  }
+
+  #classe-mobile #banner-community .banner-community img{
+    height: 230px;
+    margin-top: 10%;
+  }
+
+  #classe-mobile #banner-community .banner-community .btn{
+    background-image: linear-gradient(to right,  #0b6b97 0%, #449ec8 51%, #0b6b97 100%);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 9pt;
+    font-weight: 600;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+  }
+
+  #classe-mobile #banner-community .banner-community .btn:hover{
+    background-position: right center; 
+  }
+  #classe-mobile #banner-community .banner-community .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  #icon-whatsapp{
+    position: fixed;
+    top: calc(100% - 50px);
+    right: 0;
+    text-align: center;
+    width: 100px;
+    z-index: 0;
+  }
+
+}
+
+@media(max-width: 538px){
+  .navbar .navbar-brand img {
+    height: 69px;
+  }
+
+  #classe-mobile .promo-title {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  #classe-mobile .iframe-aula{
+    height: 178px;
+  }
+  
+  #classe-mobile .content-class{
+    margin: 10px 20px;
+  }
+  
+  #classe-mobile  .content-class .legend-class{
+    font-size: 12px;
+  }
+  
+  #classe-mobile .content-class .teacher{
+    margin: 10px 0;
+  }
+  
+  #classe-mobile .content-class .about-teacher{
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  /*--------  Products Mobile Section --------------*/
+  .row{
+    margin: 0;
+  }
+
+  #products{
+    text-align: center;
+  }
+  
+  #products .img-products{
+    height: 150px;
+    margin-top: 25px;
+  }
+  
+  #products .products h6 {
+    font-size: 15px;
+  }
+
+  #products .products .value-products {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+
+  #products .products .parcela-products {
+    font-size: 11px;
+  }
+
+  #products .products .btn{
+    font-size: 13px;
+  }
+
+  #footer span{
+    float: none;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+  }
+}

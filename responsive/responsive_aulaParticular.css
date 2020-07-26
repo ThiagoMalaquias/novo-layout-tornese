@@ -1,0 +1,56 @@
+@media(max-width: 990px){
+  /*--------------------- Navigation Section -----------------------*/
+  .navbar .navbar-collapse .collapse-form{
+    display: flex !important;
+  }
+  
+  .navbar .navbar-collapse .icon-search{
+    display: none;
+  }
+
+  /*--------------------- Banner Section -----------------------*/
+
+  #banner .promo-title {
+    font-size: 43px;
+  }
+
+  #banner .legend-class{
+    font-size: 17px;
+  }
+
+  #banner .aula-particular-compra h3 {
+    font-size: 28px;
+  }
+
+  #banner .aula-particular-compra h6 {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+
+  #banner .aula-particular-compra select {
+    font-size: 14px;
+  } 
+
+  #banner .aula-particular-compra .buttons {
+    margin-top: 40px;
+    display: block;
+  }
+
+}
+
+
+@media(max-width: 538px){
+  .navbar .navbar-brand img {
+    height: 69px;
+  }
+
+  .navbar .navbar-collapse .collapse-form .input-pesquisa::placeholder{
+    color: #ccc; 
+    text-transform: uppercase;
+    font-size: 10pt;
+  }
+  
+  .navbar .navbar-collapse .collapse-form .input-pesquisa:focus{
+    box-shadow: none;
+  }
+}
